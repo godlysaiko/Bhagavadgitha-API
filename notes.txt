@@ -1,0 +1,7 @@
+verse dropdown
+lang button (Hindi English) using switch button
+Output beside copy button
+
+
+
+voice api(Prince)

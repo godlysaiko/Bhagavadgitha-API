@@ -1,0 +1,75 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<input type="button" name="bt1" onclick="mode()" value="dark mode">
+
+  <!-- Add your site or application content here -->
+  <h1>Gita Fetcher</h1>
+  <div>
+
+    <label class="light" for="chapters">Chapter:</label>
+    <select id="chapters" name="chapters">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+    </select>
+    <label class="light" for="sloka">Verse:</label>
+    <input  type="number" id="sloka">
+    <input onclick="getData()" type="submit">
+
+  </div>
+
+  <p>You can get any Slokam by searching for it</p>
+  <br>
+  <p>Output:</p><br>
+  <p class="output san"> </p>
+  <p class="output eng"> </p>
+
+  <footer>made wih 💓 by Kousik (suggestions: Prince, Trainee: Rajendar, Guest: Sai Raj</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+
+</body>
+
+</html>
